@@ -3,6 +3,6 @@ services:
       image : resume-matcher
       build:
         context: ./
-        dockerfile : build.dockerfile
+        dockerfile : Dockerfile #build.dockerfile
       ports:
         - 80:8501
